@@ -56,7 +56,7 @@
 
                     <!-- Primary Navigation
                     ============================================= -->
-                    <nav id="primary-menu" class="dark">
+                    <nav id="primary-menu" class="style-3">
 
                         <ul>
                             <li><a href="index.php"><div>Home</div></a></li>
@@ -64,19 +64,8 @@
                             <li><a href="services.php"><div>Services</div></a>
                             <li><a href="about.php"><div>Firm</div></a></li>
                             <li><a href="news.php"><div>News</div></a></li>
-                            <li><a href="contact.php"><div>Contact Us</div></a></li>
+                            <li class="white"><a href="contact.php" class="sf-with-ul"><div>Contact Us</div></a></li>
                         </ul>
-
-                    
-
-                        <!-- Top Search
-                        ============================================= -->
-                        <div id="top-search">
-                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-                            <form action="search.html" method="get">
-                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
-                            </form>
-                        </div><!-- #top-search end -->
 
                     </nav><!-- #primary-menu end -->
 

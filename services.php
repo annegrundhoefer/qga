@@ -9,10 +9,6 @@
             <div class="container clearfix">
                 <h1>Services</h1>
                 <span>Our Services</span>
-                <ol class="breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li class="active">Services</li>
-                </ol>
             </div>
 
         </section><!-- #page-title end -->

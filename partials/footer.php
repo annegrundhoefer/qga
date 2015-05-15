@@ -9,14 +9,14 @@
                 <div class="container clearfix">
 
                     <div class="col_half">
-                        <img src="images/footer-logo.png" alt="" class="footer-logo">
+                        <img src="images/gray.svg" alt="" class="footer-logo">
 
                         Copyrights &copy; 2014 All Rights Reserved by Quina Grundhoefer Architects
                     </div>
 
                     <div class="col_half col_last tright">
                         <div class="copyrights-menu copyright-links fright clearfix">
-                            <a href="#">Home</a>/<a href="#">Projects</a>/<a href="#">Services</a>/<a href="#">Firm</a>/<a href="#">News</a>/<a href="#">Contact Us</a>
+                            <a href="index.php">Home</a>/<a href="projects.php">Projects</a>/<a href="services.php">Services</a>/<a href="about.php">Firm</a>/<a href="news.php">News</a>/<a href="contact.php">Contact Us</a>
                         </div>
                         <div class="fright clearfix">
                             <a href="#" class="social-icon si-small si-borderless nobottommargin si-facebook">
@@ -34,20 +34,6 @@
                                 <i class="icon-gplus"></i>
                             </a>
 
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-pinterest">
-                                <i class="icon-pinterest"></i>
-                                <i class="icon-pinterest"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-vimeo">
-                                <i class="icon-vimeo"></i>
-                                <i class="icon-vimeo"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-small si-borderless nobottommargin si-github">
-                                <i class="icon-github"></i>
-                                <i class="icon-github"></i>
-                            </a>
 
                             <a href="#" class="social-icon si-small si-borderless nobottommargin si-yahoo">
                                 <i class="icon-yahoo"></i>

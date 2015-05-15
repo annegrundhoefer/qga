@@ -35,7 +35,7 @@ if( isset( $_GET[ 'color' ] ) AND $_GET[ 'color' ] != '' ) {
 }
 
 if( !$color OR !checkhexcolor( $color ) ) {
-    $color = "#1ABC9C";
+    $color = "#8F0000";
 }
 
 ?>
