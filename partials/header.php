@@ -51,7 +51,7 @@
                     ============================================= -->
                     <div id="logo">
                         <a href="index.php" class="standard-logo" data-dark-logo="images/white.svg"><img src="images/white.svg" alt="Canvas Logo"></a>
-                        <a href="index.php" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/color.svg" alt="Canvas Logo"></a>
+                        <a href="index.php" class="retina-logo" data-dark-logo="images/white.svg"><img src="images/color.svg" alt="Canvas Logo"></a>
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation
