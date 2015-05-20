@@ -12,7 +12,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide dark" style="background-image: url('images/slider/church.jpg');">>
+                    <div class="swiper-slide dark" style="background-image: url('images/slider/church.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">Christ Our Redeemer</p>
