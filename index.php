@@ -7,25 +7,22 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide dark" style="background-image: url('images/slider/church.jpg');">
                         <div class="container clearfix">
-                            <div class="slider-caption slider-caption-right">
-                                <h2 data-caption-animate="fadeInUp">Christ Our Redeemer</h2>
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Niceville, FL</p>
+                            <div class="slider-caption slider-caption-left">
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Christ Our Redeemer</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide dark" style="background-image: url('images/slider/church.jpg');">>
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <h2 data-caption-animate="fadeInUp">Christ Our Redeemer</h2>
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Niceville, FL</p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Christ Our Redeemer</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide dark" style="background-image: url('images/slider/church.jpg');">
                         <div class="container clearfix">
-                            <div class="slider-caption slider-caption-right">
-                                <h2 data-caption-animate="fadeInUp">Christ Our Redeemer</h2>
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Niceville, FL</p>
+                            <div class="slider-caption slider-caption-left">
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Christ Our Redeemer</p>
                             </div>
                         </div>
                     </div>
@@ -41,11 +38,12 @@
                         slidesPerView: 1,
                         grabCursor: true,
                         loop: true,
+                        autoplay: 3500,
                         onSwiperCreated: function(swiper){
                             $('[data-caption-animate]').each(function(){
                                 var $toAnimateElement = $(this);
                                 var toAnimateDelay = $(this).attr('data-caption-delay');
-                                var toAnimateDelayTime = 0;
+                                var toAnimateDelayTime = 500;
                                 if( toAnimateDelay ) { toAnimateDelayTime = Number( toAnimateDelay ) + 750; } else { toAnimateDelayTime = 750; }
                                 if( !$toAnimateElement.hasClass('animated') ) {
                                     $toAnimateElement.addClass('not-animated');

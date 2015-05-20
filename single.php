@@ -1,41 +1,70 @@
         <?php include('partials/header-pages.php'); ?>
 
 
-
-
 <!-- Page Title
         ============================================= -->
-        <section id="page-title">
+        <section id="page-title" class="page-title-center">
 
             <div class="container clearfix">
-                <h1 class="align" style="text-align: center;">Christ our reedeemer </h1>
-                
+                <h1>Christ Our Redeemer</h1>
             </div>
 
         </section><!-- #page-title end -->
 
-        <!-- Content
+        <!-- Portfolio Single Gallery
+        ============================================= -->
+        <section id="slider" class="slider-parallax swiper_wrapper clearfix" style="height: 600px;">
+
+            <div class="swiper-container swiper-parent">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url('images/slider/church.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('images/slider/office.jpg');"></div>
+                    <div class="swiper-slide" style="background-image: url('images/slider/church.jpg');"></div>
+                    
+                </div>
+                <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
+                <div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
+            </div>
+
+            <script>
+                jQuery(document).ready(function($){
+                    var swiperSlider = new Swiper('.swiper-parent',{
+                        paginationClickable: false,
+                        autoplay: 2500,
+                        slidesPerView: 2,
+                        onSlideChangeEnd: function(swiper){
+                            $('#slider .swiper-slide').each(function(){
+                                if($(this).find('video').length > 0) { $(this).find('video').get(0).pause(); }
+                            });
+                            $('#slider .swiper-slide:not(".swiper-slide-active")').each(function(){
+                                if($(this).find('video').length > 0) {
+                                    if($(this).find('video').get(0).currentTime != 0 ) $(this).find('video').get(0).currentTime = 0;
+                                }
+                            });
+                            if( $('#slider .swiper-slide.swiper-slide-active').find('video').length > 0 ) { $('#slider .swiper-slide.swiper-slide-active').find('video').get(0).play(); }
+                        }
+                    });
+
+                    $('#slider-arrow-left').on('click', function(e){
+                        e.preventDefault();
+                        swiperSlider.swipePrev();
+                    });
+
+                    $('#slider-arrow-right').on('click', function(e){
+                        e.preventDefault();
+                        swiperSlider.swipeNext();
+                    });
+                });
+            </script>
+
+        </section><!-- .portfolio-single-image end -->
+<!-- Content
         ============================================= -->
         <section id="content">
 
+            <div class="content-wrap">
 
-
-                
-
-                    <!-- Portfolio Single Gallery
-                    ============================================= -->
-                    <div class="portfolio-single-image-full">
-                        <div class="fslider" data-arrows="true" data-animation="slide">
-                            <div class="flexslider">
-                                <div class="slider-wrap">
-                                    <div class="slide"><a href="#"><img src="images/slider/church.jpg" alt=""></a></div>
-                                    <!-- <div class="slide"><a href="#"><img src="images/portfolio/single/full/7.jpg" alt=""></a></div>
-                                    <div class="slide"><a href="#"><img src="images/portfolio/single/full/10.jpg" alt=""></a></div> -->
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- .portfolio-single-image end -->
-                    <div class="container clearfix">
+                <div class="container clearfix">
 
                     <div class="col_one_third nobottommargin">
 
@@ -44,53 +73,19 @@
                         <div class="panel panel-default events-meta">
                             <div class="panel-body">
                                 <ul class="portfolio-meta nobottommargin">
-                                    <li><span><i class="icon-location"></i>Location:</span> Niceville, FL</li>
-                                    <li><span><i class="icon-calendar3"></i>Date:</span> March 2008</li>
-                                    <li><span><i class="icon-th"></i>Size</span> 18,000 sq. ft.</li>
-                                    <li><span><i class="icon-dollar"></i>Construction Cost:</span> $5.1 million</li>
+                                    <li><span><i class="icon-location"></i>Location</span>Niceville, FL</li>
+                                    <li><span><i class="icon-th"></i>Size:</span> 18,000 sq/ft</li>
+                                    <li><span><i class="icon-dollar"></i>Cost:</span> $5.1 million</li>
                                 </ul>
                             </div>
                         </div>
                         <!-- Portfolio Single - Meta End -->
 
-                        <!-- Portfolio Single - Share
-                        ============================================= -->
-                        <div class="si-share noborder clearfix">
-                            <span>Share:</span>
-                            <div>
-                                <a href="#" class="social-icon si-borderless si-facebook">
-                                    <i class="icon-facebook"></i>
-                                    <i class="icon-facebook"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-twitter">
-                                    <i class="icon-twitter"></i>
-                                    <i class="icon-twitter"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-pinterest">
-                                    <i class="icon-pinterest"></i>
-                                    <i class="icon-pinterest"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-gplus">
-                                    <i class="icon-gplus"></i>
-                                    <i class="icon-gplus"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-rss">
-                                    <i class="icon-rss"></i>
-                                    <i class="icon-rss"></i>
-                                </a>
-                                <a href="#" class="social-icon si-borderless si-email3">
-                                    <i class="icon-email3"></i>
-                                    <i class="icon-email3"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Portfolio Single - Share End -->
+                        
 
                     </div>
 
-                    
-
-<!-- Portfolio Single Content
+                    <!-- Portfolio Single Content
                     ============================================= -->
                     <div class="col_two_third portfolio-single-content col_last nobottommargin">
 
@@ -112,14 +107,14 @@
 
                     </div><!-- .portfolio-single-content end -->
 
-                </div>
+                    <div class="clear"></div>
 
-                <!-- Related Portfolio Items
-                ============================================= -->
-                <div class="section nobottommargin nobottompadding noborder">
-                    <div class="container clearfix">
-                        <h3 class="center bottommargin">Related Projects:</h3>
-                    </div>
+                    <div class="divider divider-center"><i class="icon-circle"></i></div>
+
+                    <!-- Related Portfolio Items
+                    ============================================= -->
+                    <h3 class="center">Related Projects:</h3>
+
                 </div>
 
                 <div id="related-portfolio" class="owl-carousel owl-carousel-full portfolio-carousel portfolio-notitle portfolio-nomargin footer-stick">
@@ -311,7 +306,6 @@
 
                         relatedPortfolio.owlCarousel({
                             margin: 1,
-                            loop: true,
                             nav: true,
                             navText: ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
                             dots:false,
@@ -332,6 +326,7 @@
             </div>
 
         </section><!-- #content end -->
+
 
 
 

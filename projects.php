@@ -4,14 +4,7 @@
 
         <!-- Page Title
         ============================================= -->
-        <section id="page-title">
-
-            <div class="container clearfix">
-                <h1>Projects</h1>
-                <span>Showcase of Our Awesome Projects in 4 Columns</span>
-            </div>
-
-        </section><!-- #page-title end -->
+        
 
         <!-- Content
         ============================================= -->
@@ -19,11 +12,11 @@
 
             <div class="content-wrap nobottompadding">
 
-                <div class="container clearfix">
+                <div class="container clearfix" style="text-align: center;">
 
                     <!-- Portfolio Filter
                     ============================================= -->
-                    <ul id="portfolio-filter" class="clearfix">
+                    <ul id="portfolio-filter">
 
                         <li class="activeFilter"><a href="#" data-filter="*">Show All</a></li>
                         <li><a href="#" data-filter=".pf-commercial">Commercial</a></li>
@@ -34,9 +27,6 @@
 
                     </ul><!-- #portfolio-filter end -->
 
-                    <div id="portfolio-shuffle">
-                        <i class="icon-random"></i>
-                    </div>
 
                 </div>
 
@@ -45,24 +35,24 @@
                 <div id="portfolio" class="portfolio-nomargin portfolio-notitle portfolio-full clearfix">
 
                     <article class="portfolio-item pf-commercial ">
+                        <a href="single.php">
                         <div class="portfolio-image">
-                            <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                            <a href="single.php">
+                                <img src="images/blog/library.jpg" alt="Open Imagination">
                             </a>
-                            <div class="portfolio-overlay">
-                                <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
+                             <div class="portfolio-overlay">
+                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
                             </div>
                         </div>
                         <div class="portfolio-desc">
                             <h3><a href="portfolio-single.html">Christ Our Redeemer</a></h3>
-                            <span><a href="#">Media</a>, <a href="#">Icons</a></span>
                         </div>
                     </article>
 
                     <article class="portfolio-item pf-commercial">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/vet.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -70,14 +60,13 @@
                         </div>
                         <div class="portfolio-desc">
                             <h3><a href="portfolio-single.html">Christ Our Redeemer</a></h3>
-                            <span><a href="#">Media</a>, <a href="#">Icons</a></span>
                         </div>
                     </article>
 
                     <article class="portfolio-item pf-religious">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/sylvester.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -92,7 +81,7 @@
                      <article class="portfolio-item pf-religious">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/pastoral.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -107,7 +96,7 @@
                     <article class="portfolio-item pf-historic">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/sylvester.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -122,7 +111,7 @@
                      <article class="portfolio-item pf-historic">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/pastoral.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -137,7 +126,7 @@
                     <article class="portfolio-item pf-recreational">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/vet.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -152,7 +141,7 @@
                     <article class="portfolio-item pf-recreational">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/library.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -167,7 +156,7 @@
                      <article class="portfolio-item pf-educational pf-commercial">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/vet.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -182,7 +171,7 @@
                     <article class="portfolio-item pf-educational pf-commercial">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/library.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -197,7 +186,7 @@
                     <article class="portfolio-item pf-religious pf-commercial">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/pastoral.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>
@@ -212,7 +201,7 @@
                      <article class="portfolio-item pf-historic pf-commercial">
                         <div class="portfolio-image">
                             <a href="portfolio-single.html">
-                                <img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+                                <img src="images/blog/sylvester.jpg" alt="Open Imagination">
                             </a>
                             <div class="portfolio-overlay">
                                 <a href="single.php" class="left-icon"><i class="icon-line-plus"></i></a>

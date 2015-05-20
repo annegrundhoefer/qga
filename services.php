@@ -27,7 +27,7 @@
 
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <a href="images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/small/17.jpg" alt="Standard Post with Image"></a>
+                                <a href="images/blog/library" data-lightbox="image"><img class="image_fade" src="images/blog/library.jpg" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -42,7 +42,7 @@
 
                        <div class="entry clearfix">
                             <div class="entry-image">
-                                <a href="images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/small/17.jpg" alt="Standard Post with Image"></a>
+                                <a href="images/blog/vet.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/vet.jpg" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -57,7 +57,7 @@
 
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <a href="images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/small/17.jpg" alt="Standard Post with Image"></a>
+                                <a href="images/blog/sylvester.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -72,7 +72,7 @@
 
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <a href="images/blog/full/17.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/small/17.jpg" alt="Standard Post with Image"></a>
+                                <a href="images/blog/pastoral.jpg" data-lightbox="image"><img class="image_fade" src="images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
