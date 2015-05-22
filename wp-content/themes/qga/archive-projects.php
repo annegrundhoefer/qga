@@ -34,6 +34,7 @@ include('partials/header-pages.php'); ?>
 
         $args = array(
             'post_type' => 'projects'
+            'posts_per_page' => -1
         );
 
         $panels = new WP_Query($args);
