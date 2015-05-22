@@ -37,16 +37,16 @@ include('partials/header-pages.php'); ?>
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
 										<strong>Quina Grundhoefer Architects</strong><br>
-										400 W. Romana<br>
-										Pensacola, FL 32501<br>
+										<a href="https://www.google.com/maps/dir//400+W+Romana+St,+Pensacola,+FL+32502/@30.4102507,-87.2215214,17z/data=!4m13!1m4!3m3!1s0x8890bf558902d5e1:0x569b976f1d2395d2!2s400+W+Romana+St,+Pensacola,+FL+32502!3b1!4m7!1m0!1m5!1m1!1s0x8890bf558902d5e1:0x569b976f1d2395d2!2m2!1d-87.2215214!2d30.4102507" target="_blank">400 W. Romana<br>
+										Pensacola, FL 32501</a><br>
 									</address>
 
 
 									<div class="clear topmargin"></div>
 
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> (850) 723-7788 <br>
-									<abbr title="Fax"><strong>Hours:</strong></abbr> M-F 9am-5pm<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> info@qga.com
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel+:14335575"> (850) 433-5575</a><br>
+									<abbr title="Fax"><strong>Hours:</strong></abbr>  M-F 9am-5pm<br>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:info@qgarchitects.com"> info@qgarchitects.com</a>
 								</div>
 							</div>
 						</div>

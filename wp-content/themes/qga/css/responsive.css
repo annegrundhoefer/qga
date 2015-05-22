@@ -626,7 +626,10 @@
 		max-width: none;
 		text-align: center;
 		border: 0 !important;
-		padding: 0 !important;
+		padding-left: 50px !important;
+	}
+	#logo img {
+		width: 230px !important;
 	}
 
 	#logo a.standard-logo { display: inline-block; }
@@ -1574,7 +1577,7 @@
 		border-radius: 2px !important;
 	}
 
-	#portfolio-filter li a:hover { color: #1ABC9C; }
+	#portfolio-filter li a:hover { color: #8F0000; }
 
 	#portfolio-filter li.activeFilter a {
 		color: #FFF;

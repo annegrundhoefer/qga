@@ -4,24 +4,24 @@ include('partials/header-pages.php'); ?>
 
  <section id="content">
 
-            <div class="content-wrap nobottompadding">
+    <div class="content-wrap nobottompadding">
 
-                <div class="container clearfix" style="text-align: center;">
-                    <?php
-                    //list terms in a given taxonomy (useful as a widget for twentyten)
-                    $taxonomy = 'category';
-                    $tax_terms = get_terms($taxonomy);
-                    ?>
-                    <ul id="portfolio-filter">
-                    <li class="activeFilter"><a href="#" data-filer="*">All</a></li>
-                    <?php
-                    foreach ($tax_terms as $tax_term) {
-                    echo '<li><a href="#" data-filter=".pf-' . $tax_term->slug .'">' . $tax_term->name . '</a></li>';
-                    }
-                    ?>
-                    </ul>
+        <div class="container clearfix" style="text-align: center;">
+            <?php
+            //list terms in a given taxonomy (useful as a widget for twentyten)
+            $taxonomy = 'category';
+            $tax_terms = get_terms($taxonomy);
+            ?>
+            <ul id="portfolio-filter">
+            <li class="activeFilter"><a href="#" data-filer="*">All</a></li>
+            <?php
+            foreach ($tax_terms as $tax_term) {
+            echo '<li><a href="#" data-filter=".pf-' . $tax_term->slug .'">' . $tax_term->name . '</a></li>';
+            }
+            ?>
+            </ul>
 
-                </div>
+        </div>
 
 
         <?php 
@@ -80,6 +80,7 @@ include('partials/header-pages.php'); ?>
                 ============================================= -->
                 <script type="text/javascript">
 
+
                     jQuery(window).load(function(){
 
                         var $container = $('#portfolio');
@@ -103,6 +104,34 @@ include('partials/header-pages.php'); ?>
                         $(window).resize(function() {
                             $container.isotope('layout');
                         });
+
+                        var src= window.location.href;
+                        var query = src.substring(src.indexOf("?"));
+
+                        var query_vals = query.split("&");
+                        var queries = {};
+
+                        var count = 1;
+
+                        for (var i = 0; i < query_vals.length; i++) {
+                        var name_val = query_vals[i].split('=');
+
+                        if (name_val[0].indexOf('?') == -1) {
+                        var query_name = name_val[0];
+                        } else {
+                        var query_name = name_val[0].replace('?','');
+                        }
+
+                        console.log(query_name);
+
+                        queries[query_name] = name_val[1];
+                          count++;
+                        }
+
+                        if (query_name != null) {
+                            $('#portfolio-filter li').removeClass('activeFilter');
+                            $('#portfolio-filter').find('[data-filter=".pf-' + query_name + '"]').parent().addClass('activeFilter');
+                        }
 
                     });
 
