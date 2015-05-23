@@ -77,8 +77,13 @@ iframe { border: none !important; }
 }
 
 .menu-item {
-		margin: 10px !important;
-	}
+	margin: 10px !important;
+}
+
+footer .menu-item {
+	margin: 10px !important;
+	display: inline-block;
+}
 
 
 /* ----------------------------------------------------------------

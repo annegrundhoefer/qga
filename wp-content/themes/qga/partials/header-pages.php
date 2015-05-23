@@ -51,8 +51,8 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo" class="interior">
-                        <a href="<?php bloginfo('template_url'); ?>/index.php" class="standard-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/color.svg"><img src="<?php bloginfo('template_url'); ?>/images/color.svg" alt="Canvas Logo"></a>
-                        <a href="<?php bloginfo('template_url'); ?>/index.php" class="retina-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/logo-dark@2x.png"><img src="<?php bloginfo('template_url'); ?>/images/color.svg" alt="Canvas Logo"></a>
+                        <a href="<?php echo site_url(); ?>" class="standard-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/color.svg"><img src="<?php bloginfo('template_url'); ?>/images/color.svg" alt="Canvas Logo"></a>
+                        <a href="<?php echo site_url(); ?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/color.svg"><img src="<?php bloginfo('template_url'); ?>/images/color.svg" alt="Canvas Logo"></a>
                     </div><!-- #logo end -->
 
                     <!-- Primary Navigation

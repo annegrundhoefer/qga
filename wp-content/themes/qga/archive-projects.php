@@ -13,7 +13,7 @@ include('partials/header-pages.php'); ?>
             $tax_terms = get_terms($taxonomy);
             ?>
             <ul id="portfolio-filter">
-            <li class="activeFilter"><a href="#" data-filer="*">All</a></li>
+            <li class="activeFilter"><a href="#" data-filter="*">All</a></li>
             <?php
             foreach ($tax_terms as $tax_term) {
             echo '<li><a href="#" data-filter=".pf-' . $tax_term->slug .'">' . $tax_term->name . '</a></li>';
@@ -117,20 +117,23 @@ include('partials/header-pages.php'); ?>
                         var name_val = query_vals[i].split('=');
 
                         if (name_val[0].indexOf('?') == -1) {
-                        var query_name = name_val[0];
+                            var query_name = name_val[0];
                         } else {
-                        var query_name = name_val[0].replace('?','');
+                            var query_name = name_val[0].replace('?','');
                         }
-
-                        console.log(query_name);
 
                         queries[query_name] = name_val[1];
                           count++;
                         }
 
-                        if (query_name != null) {
+
+
+                        if (src.indexOf("?") != -1) {
                             $('#portfolio-filter li').removeClass('activeFilter');
                             $('#portfolio-filter').find('[data-filter=".pf-' + query_name + '"]').parent().addClass('activeFilter');
+                            var $container = $('#portfolio');
+                            $container.isotope({ filter: '.pf-' + query_name });
+                            return false;
                         }
 
                     });
