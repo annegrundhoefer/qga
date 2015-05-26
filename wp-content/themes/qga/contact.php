@@ -47,7 +47,7 @@ include('partials/header-pages.php'); ?>
 
 									<abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel:+18504335575"> (850) 433-5575</a><br>
 									<abbr title="Fax"><strong>Hours:</strong></abbr>  M-F 9am-5pm<br>
-									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:info@qgarchitects.com"> info@qgarchitects.com</a>
+									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:qg@qgarchitects.com"> qg@qgarchitects.com</a>
 								</div>
 								</div>
 							</div>
