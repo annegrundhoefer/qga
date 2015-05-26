@@ -20,7 +20,6 @@
                         </div>
                     </div>
                         <div class="fright clearfix">
-      
 
                             <a href="https://www.facebook.com/qgarchitects" class="social-icon si-small si-borderless nobottommargin si-facebook">
                                 <i class="icon-facebook"></i>

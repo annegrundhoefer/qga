@@ -34,6 +34,7 @@ include('partials/header-pages.php'); ?>
 							<div class="col-padding max-height">
 								<h3 class="font-body t400 ls1">Location</h3>
 
+								<div class="responsive-center">
 								<div style="font-size: 16px; line-height: 1.7;">
 									<address style="line-height: 1.7;">
 										<strong>Quina Grundhoefer Architects</strong><br>
@@ -44,9 +45,10 @@ include('partials/header-pages.php'); ?>
 
 									<div class="clear topmargin"></div>
 
-									<abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel+:14335575"> (850) 433-5575</a><br>
+									<abbr title="Phone Number"><strong>Phone:</strong></abbr> <a href="tel:+18504335575"> (850) 433-5575</a><br>
 									<abbr title="Fax"><strong>Hours:</strong></abbr>  M-F 9am-5pm<br>
 									<abbr title="Email Address"><strong>Email:</strong></abbr> <a href="mailto:info@qgarchitects.com"> info@qgarchitects.com</a>
+								</div>
 								</div>
 							</div>
 						</div>

@@ -6,9 +6,391 @@ Template Name: About
 
 include('partials/header-pages.php'); ?>
 
+
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+
+                    <!-- Posts
+                    ============================================= -->
+                    <div id="posts" class="small-thumbs">
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/slider/office.jpg">
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2>Philosophy</h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
+
         <!-- Page Title
         ============================================= -->
-        <section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('<?php bloginfo('template_url'); ?>/images/slider/office.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
+        <section id="page-title">
+
+            <div class="container clearfix">
+                <h1>Awards</h1>
+                <span>Some text about awards goes here</span>
+            </div>
+
+        </section><!-- #page-title end -->
+
+         <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+
+                    <!-- Posts
+                    ============================================= -->
+                    <div id="posts" class="small-thumbs">
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?educational=true">NW Florida AIA MERIT Award (2011)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?educational=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?historic=true">brick industry association silver award (2010)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?historic=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?religious=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?religious=true">NW Florida AIA Merit award (2010)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?religious=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?recreational=true">NW FL AIA honor award (2009)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?recreational=true"class="more-link">View Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?educational=true">NW Florida AIA MERIT award (2009)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?educational=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?historic=true">Florida trust preservation award (2009)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?historic=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?religious=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?religious=true">Florida trust preservation award (2008)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?religious=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?recreational=true">Florida trust preservation award (2007)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?recreational=true"class="more-link">View Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?educational=true">Florida trust preservation award (2006)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?educational=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?historic=true">american school & university award (2003)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?historic=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?religious=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?religious=true">Florida trust preservation award (2003)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?religious=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?recreational=true">NW Florida AIA Design award (2003)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?recreational=true"class="more-link">View Projects</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?educational=true">Florida trust preservation award (2000)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?educational=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?historic=true">NW Florida AIA Design Award (1999)</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <a href="/demo/qga/projects/?historic=true"class="more-link">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section><!-- #content end -->
+
+                <!-- Page Title
+        ============================================= -->
+        <section id="page-title">
+
+            <div class="container clearfix">
+                <h1>Our Team</h1>
+                <span>Some text about the team goes here</span>
+            </div>
+
+        </section><!-- #page-title end -->
+
+         <!-- Content
+        ============================================= -->
+        <section id="content">
+
+            <div class="content-wrap">
+
+                <div class="container clearfix">
+
+                    <!-- Posts
+                    ============================================= -->
+                    <div id="posts" class="small-thumbs">
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?religious=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                       <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                </div>
+                                <div class="entry-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Page Title
+        ============================================= -->
+        <!-- <section id="page-title" class="page-title-parallax page-title-dark" style="padding: 250px 0; background-image: url('<?php bloginfo('template_url'); ?>/images/slider/office.jpg'); background-size: cover; background-position: center center;" data-stellar-background-ratio="0.4">
 
             <div class="container clearfix">
                 <h1>Who We Are</h1>
@@ -16,11 +398,11 @@ include('partials/header-pages.php'); ?>
                 
             </div>
 
-        </section><!-- #page-title end -->
+        </section> --><!-- #page-title end -->
 
         <!-- Content
         ============================================= -->
-        <section id="content">
+        <!-- <section id="content">
 
             <div class="content-wrap">
 
@@ -193,14 +575,14 @@ include('partials/header-pages.php'); ?>
                     </div>
                 </div>
 
-
+ -->
 
  
-           </section>
+<!--            </section> -->
 
 
 
-        </section><!-- #content end -->
+        <!-- </section> --><!-- #content end -->
 
 <?php include('partials/footer.php'); ?>
 

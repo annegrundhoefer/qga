@@ -940,6 +940,9 @@ body.stretched #header.full-header .container {
 
 #logo a.retina-logo { display: none; }
 
+#logo a.retina-logo { display: none; }
+#logo a.responsive-logo { display: none; }
+
 
 /* ----------------------------------------------------------------
 	Header Right Area
@@ -1018,7 +1021,7 @@ body.stretched #header.full-header .container {
 #primary-menu ul {
 	list-style: none;
 	height: 100px;
-	margin: 0;
+	margin: -10px;
 }
 
 #primary-menu > ul { float: left; }
