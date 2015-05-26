@@ -50,9 +50,17 @@
                     <!-- Logo
                     ============================================= -->
                     <div id="logo">
-                        <a href="<?php echo site_url(); ?>" class="standard-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/white.svg"><img src="<?php bloginfo('template_url'); ?>/images/white.svg" alt="Canvas Logo"></a>
-                        <a href="<?php echo site_url(); ?>" class="retina-logo" data-dark-logo="<?php bloginfo('template_url'); ?>/images/white.svg"><img src="<?php bloginfo('template_url'); ?>/images/white.svg" alt="Canvas Logo"></a>
+                        <div class="mobile-hide">
+                            <a href="<?php echo site_url(); ?>" class="standard-logo" data-light-logo="<?php bloginfo('template_url'); ?>/images/white.svg"><img src="<?php bloginfo('template_url'); ?>/images/white.svg" alt="Canvas Logo"></a>
+                            <a href="<?php echo site_url(); ?>" class="retina-logo" data-light-logo="<?php bloginfo('template_url'); ?>/images/white.svg"><img src="<?php bloginfo('template_url'); ?>/images/white.svg" alt="Canvas Logo"></a>
+                        </div>
                     </div><!-- #logo end -->
+
+                    <div class="mobile-logo">
+                        <div class="mobile-show">
+                            <a href="<?php echo site_url(); ?>" class="standard-logo"><img src="<?php bloginfo('template_url'); ?>/images/color.svg" alt="Canvas Logo"></a>
+                        </div>
+                    </div>
 
                     <!-- Primary Navigation
                     ============================================= -->

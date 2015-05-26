@@ -935,6 +935,9 @@ body.stretched #header.full-header .container {
 	width: 300px;
 	text-align: left;
 }
+html body header .mobile-show {
+	display: none;
+}
 
 #logo a.standard-logo { display: block; }
 

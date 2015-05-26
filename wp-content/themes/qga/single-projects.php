@@ -35,10 +35,16 @@ if (have_posts()): while (have_posts()) : the_post();
 
             <div class="swiper-container swiper-parent">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/church.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/office.jpg');"></div>
-                    <div class="swiper-slide" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/church.jpg');"></div>
-                    
+
+                    <?php 
+
+                    $images = get_field('gallery');
+
+                    if( $images ): ?>
+                            <?php foreach( $images as $image ): ?>
+                                         <div class="swiper-slide" style="background-image: url('<?php echo $image['sizes']['large']; ?>')"></div>
+                            <?php endforeach; ?>
+                    <?php endif; ?>                    
                 </div>
                 <div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
                 <div id="slider-arrow-right"><i class="icon-angle-right"></i></div>

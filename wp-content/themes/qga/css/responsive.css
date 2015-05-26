@@ -1822,6 +1822,52 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+	html body header #logo .mobile-hide {
+		display: none;
+	}
+	html body header .mobile-logo {
+		position: absolute; 
+		top: 30px;
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	html body header nav ul li a {
+		color: #333 !important;
+	}
+	html body header .mobile-show {
+		display: block;
+	}
+	html body header .mobile-show img {
+		width: 50% !important;
+		margin-left: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	html body header #logo .mobile-hide {
+		display: none;
+	}
+	html body header .mobile-logo {
+		position: absolute; 
+		top: 30px;
+		left: 0px;
+		width: 100%;
+		text-align: center;
+	}
+	html body header nav ul li a {
+		color: #333 !important;
+	}
+	html body header .mobile-show {
+		display: block;
+	}
+	html body header .mobile-show img {
+		width: 70% !important;
+		margin-left: 30px;
+	}
+}
+
 @media (min-width: 480px) and (max-width: 767px) {
 
 	.container,
