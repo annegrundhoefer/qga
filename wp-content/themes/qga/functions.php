@@ -219,10 +219,10 @@ function html5wp_pagination()
 }
 
 // Custom Excerpts
-function html5wp_index($length) // Create 20 Word Callback for Index page Excerpts, call using html5wp_excerpt('html5wp_index');
-{
-    return 20;
+function custom_excerpt_length( $length ) {
+    return 200;
 }
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 // Create 40 Word Callback for Custom Post Excerpts, call using html5wp_excerpt('html5wp_custom_post');
 function html5wp_custom_post($length)
@@ -248,11 +248,11 @@ function html5wp_excerpt($length_callback = '', $more_callback = '')
 }
 
 // Custom View Article link to Post
-function html5_blank_view_article($more)
-{
-    global $post;
-    return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('View Article', 'html5blank') . '</a>';
-}
+// function html5_blank_view_article($more)
+// {
+//     global $post;
+//     return '... <a class="view-article" href="' . get_permalink($post->ID) . '">' . __('View Article', 'html5blank') . '</a>';
+// }
 
 // Remove Admin bar
 function remove_admin_bar()

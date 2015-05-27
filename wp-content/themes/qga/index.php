@@ -5,31 +5,38 @@
 
             <div class="swiper-container swiper-parent">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/church.jpg');">
+                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/redeemer.jpg');">
+                        <div class="container clearfix">
+                            <div class="slider-caption slider-caption-left">
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Christ Our Redeemer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/church3.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
                                 <p data-caption-animate="fadeInUp" data-caption-delay="200">St. Sylvester Catholic Church</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/parish.jpg');">
+                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/building.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Scared Heart Parish Hall</p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">This Building</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/pastoral.jpg');">
+                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/beach.jpg');">
                         <div class="container clearfix">
-                            <div class="slider-caption slider-caption-right">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Pastoral Center</p>
+                            <div class="slider-caption slider-caption-left">
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Sanders Beach</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/ann.jpg');">
+                    <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/fire.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">St. Ann's Catholic Church</p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Pensacola Beach Fire Station</p>
                             </div>
                         </div>
                     </div>
