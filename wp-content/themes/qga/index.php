@@ -22,7 +22,7 @@
                     <div class="swiper-slide dark" style="background-image: url('<?php bloginfo('template_url'); ?>/images/slider/building.jpg');">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-left">
-                                <p data-caption-animate="fadeInUp" data-caption-delay="200">This Building</p>
+                                <p data-caption-animate="fadeInUp" data-caption-delay="200">Global Learning Academy Elementary School</p>
                             </div>
                         </div>
                     </div>
