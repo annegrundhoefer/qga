@@ -19,16 +19,17 @@ include('partials/header-pages.php'); ?>
                     ============================================= -->
                     <div id="posts" class="small-thumbs">
 
-                        <div class="entry clearfix">
+                        <div class="entry clearfix" style="margin: 0px 0px 0px 0px;">
                             <div class="entry-image">
                                 <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/slider/office.jpg">
                             </div>
                             <div class="entry-c">
-                                <div class="entry-title">
-                                    <h2>Philosophy</h2>
-                                </div>
+                                <div class="heading-block fancy-title nobottomborder title-bottom-border">
+                                    <h4>Our <span>Philosophy</span>.</h4>
+                                 </div>
                                 <div class="entry-content">
-                                    <p>Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <p>Our Place in History: The distinctiveness of a body of work within a given context is the basis for evaluation of the impact made by an Architect or an Architectural firm on the built environment.  The enhanced quality of life and the formation of character for a city or region are its hallmarks.  The nature of the place, both natural and man-made, the image of the place and the respect for this place over time and in history, is the context for which the evaluation is made.  The distinctiveness of the place, the image and the historic context, is the criteria for excellence.</p>
+                                    <p>A distinctive project assumes that the functional, programmatic and financial goals are achieved or exceeded.  It is when this special result occurs that the project may stand-out and define the potential of the built environment which then earns attention and respect.  A new building; a restoration; an addition: each may embody these characteristics and be appreciated as a new and vital part of the whole community.  Quina Grundhoefer Architects has proven in his body of work that it is distinctive.</p>
                                 </div>
                             </div>
                         </div>
@@ -43,18 +44,18 @@ include('partials/header-pages.php'); ?>
 
         <!-- Page Title
         ============================================= -->
-        <section id="page-title">
+        <!-- <section id="page-title">
 
             <div class="container clearfix">
                 <h1>Awards</h1>
                 <span>Some text about awards goes here</span>
             </div>
 
-        </section><!-- #page-title end -->
+        </section> --><!-- #page-title end -->
 
          <!-- Content
         ============================================= -->
-        <section id="content">
+        <!-- <section id="content">
 
             <div class="content-wrap">
 
@@ -62,7 +63,7 @@ include('partials/header-pages.php'); ?>
 
                     <!-- Posts
                     ============================================= -->
-                    <div id="posts" class="small-thumbs">
+                    <!-- <div id="posts" class="small-thumbs">
 
                         <div class="entry clearfix">
                             <div class="entry-image">
@@ -277,30 +278,30 @@ include('partials/header-pages.php'); ?>
 
             </div>
 
-        </section><!-- #content end -->
+        </section> -><! #content end -->
 
                 <!-- Page Title
         ============================================= -->
-        <section id="page-title">
+       <!--  <section id="page-title">
 
             <div class="container clearfix">
                 <h1>Our Team</h1>
                 <span>Some text about the team goes here</span>
             </div>
 
-        </section><!-- #page-title end -->
+        </section> --><!-- #page-title end -->
 
          <!-- Content
         ============================================= -->
-        <section id="content">
+     <!--    <section id="content">
 
             <div class="content-wrap">
 
                 <div class="container clearfix">
 
-                    <!-- Posts
+                    <! Posts
                     ============================================= -->
-                    <div id="posts" class="small-thumbs">
+                   <!--  <div id="posts" class="small-thumbs">
 
                         <div class="entry clearfix">
                             <div class="entry-image">
@@ -386,7 +387,7 @@ include('partials/header-pages.php'); ?>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --> 
 
         <!-- Page Title
         ============================================= -->
@@ -402,10 +403,10 @@ include('partials/header-pages.php'); ?>
 
         <!-- Content
         ============================================= -->
-        <!-- <section id="content">
+        <section id="content">
 
             <div class="content-wrap">
-
+<!-- 
                 <div class="container clearfix">
 
                     <div class="col_one_third">
@@ -438,7 +439,7 @@ include('partials/header-pages.php'); ?>
 
                     </div>
 
-                </div>
+                </div> -->
 
                 <div class="container clearfix">
 
@@ -575,7 +576,7 @@ include('partials/header-pages.php'); ?>
                     </div>
                 </div>
 
- -->
+
 
  
 <!--            </section> -->
