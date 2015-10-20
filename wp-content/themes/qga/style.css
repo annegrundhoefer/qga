@@ -4749,7 +4749,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 
 .portfolio-meta li span {
 	display: inline-block;
-	width: 170px;
+	width: 100px;
 	font-weight: bold;
 	color: #333;
 }
