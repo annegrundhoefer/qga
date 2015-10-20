@@ -19,7 +19,7 @@ include('partials/header-pages.php'); ?>
                     ============================================= -->
                     <div id="posts" class="small-thumbs">
 
-                        <div class="entry clearfix" style="margin: 0px 0px 0px 0px;">
+                        <div class=" clearfix" style="margin: 0px 0px 0px 0px;">
                             <div class="entry-image">
                                 <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/slider/office.jpg">
                             </div>
@@ -44,18 +44,18 @@ include('partials/header-pages.php'); ?>
 
         <!-- Page Title
         ============================================= -->
-        <!-- <section id="page-title">
+  <section id="page-title">
 
             <div class="container clearfix">
                 <h1>Awards</h1>
                 <span>Some text about awards goes here</span>
             </div>
 
-        </section> --><!-- #page-title end -->
+        </section><!-- #page-title end -->
 
          <!-- Content
         ============================================= -->
-        <!-- <section id="content">
+       <section id="content">
 
             <div class="content-wrap">
 
@@ -63,12 +63,12 @@ include('partials/header-pages.php'); ?>
 
                     <!-- Posts
                     ============================================= -->
-                    <!-- <div id="posts" class="small-thumbs">
+                    <div id="posts" class="small-thumbs">
 
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?educational=true">NW Florida AIA MERIT Award (2011)</a></h2>
@@ -81,9 +81,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                        <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?historic=true">brick industry association silver award (2010)</a></h2>
@@ -96,9 +96,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?religious=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?religious=true">NW Florida AIA Merit award (2010)</a></h2>
@@ -111,9 +111,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?recreational=true">NW FL AIA honor award (2009)</a></h2>
@@ -125,9 +125,9 @@ include('partials/header-pages.php'); ?>
                             </div>
                         </div>
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?educational=true">NW Florida AIA MERIT award (2009)</a></h2>
@@ -140,9 +140,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                        <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?historic=true">Florida trust preservation award (2009)</a></h2>
@@ -155,9 +155,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                           <!--  <div class="entry-image">
                                 <a href="/demo/qga/projects/?religious=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?religious=true">Florida trust preservation award (2008)</a></h2>
@@ -170,9 +170,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?recreational=true">Florida trust preservation award (2007)</a></h2>
@@ -184,9 +184,9 @@ include('partials/header-pages.php'); ?>
                             </div>
                         </div>
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                           <!--  <div class="entry-image">
                                 <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?educational=true">Florida trust preservation award (2006)</a></h2>
@@ -199,9 +199,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                        <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?historic=true">american school & university award (2003)</a></h2>
@@ -214,9 +214,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?religious=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/sylvester.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?religious=true">Florida trust preservation award (2003)</a></h2>
@@ -229,9 +229,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?recreational=true">NW Florida AIA Design award (2003)</a></h2>
@@ -243,9 +243,9 @@ include('partials/header-pages.php'); ?>
                             </div>
                         </div>
                         <div class="entry clearfix">
-                            <div class="entry-image">
+                       <!--      <div class="entry-image">
                                 <a href="/demo/qga/projects/?educational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?educational=true">Florida trust preservation award (2000)</a></h2>
@@ -258,9 +258,9 @@ include('partials/header-pages.php'); ?>
                         </div>
 
                        <div class="entry clearfix">
-                            <div class="entry-image">
+                            <!-- <div class="entry-image">
                                 <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
-                            </div>
+                            </div> -->
                             <div class="entry-c">
                                 <div class="entry-title">
                                     <h2><a href="/demo/qga/projects/?historic=true">NW Florida AIA Design Award (1999)</a></h2>
@@ -278,22 +278,22 @@ include('partials/header-pages.php'); ?>
 
             </div>
 
-        </section> -><! #content end -->
+        </section> 
 
                 <!-- Page Title
         ============================================= -->
-       <!--  <section id="page-title">
+        <section id="page-title">
 
             <div class="container clearfix">
                 <h1>Our Team</h1>
                 <span>Some text about the team goes here</span>
             </div>
 
-        </section> --><!-- #page-title end -->
+        </section><!-- #page-title end -->
 
          <!-- Content
         ============================================= -->
-     <!--    <section id="content">
+ <section id="content">
 
             <div class="content-wrap">
 
@@ -301,7 +301,7 @@ include('partials/header-pages.php'); ?>
 
                     <! Posts
                     ============================================= -->
-                   <!--  <div id="posts" class="small-thumbs">
+                <div id="posts" class="small-thumbs">
 
                         <div class="entry clearfix">
                             <div class="entry-image">
@@ -387,7 +387,7 @@ include('partials/header-pages.php'); ?>
                         </div>
                     </div>
                 </div>
-            </section> --> 
+            </section> 
 
         <!-- Page Title
         ============================================= -->
@@ -403,9 +403,9 @@ include('partials/header-pages.php'); ?>
 
         <!-- Content
         ============================================= -->
-        <section id="content">
+       <!--  <section id="content">
 
-            <div class="content-wrap">
+            <div class="content-wrap"> -->
 <!-- 
                 <div class="container clearfix">
 
@@ -441,7 +441,7 @@ include('partials/header-pages.php'); ?>
 
                 </div> -->
 
-                <div class="container clearfix">
+                <!-- <div class="container clearfix">
 
                     <div class="clear"></div>
 
@@ -468,9 +468,9 @@ include('partials/header-pages.php'); ?>
                     </ul>
 
                 </div>
-            </div>
+            </div> -->
 
-            <div class="container clearfix bottommargin">
+            <!-- <div class="container clearfix bottommargin">
 
                     <div class="heading-block center">
                         <h4>Our Team</h4>
@@ -575,7 +575,7 @@ include('partials/header-pages.php'); ?>
                         </div>
                     </div>
                 </div>
-
+ -->
 
 
  

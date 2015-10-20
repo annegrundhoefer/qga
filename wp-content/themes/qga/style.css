@@ -3451,7 +3451,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-notitle .por
 }
 
 .portfolio-desc h3 {
-	margin: 15px;
+	margin: 0px;
 	padding: 0;
 	font-size: 19px;
 }
@@ -4482,7 +4482,7 @@ body:not(.device-touch):not(.device-xs):not(.device-xxs) .portfolio-overlay {
 	background-color: #F5F5F5;
 	width: 40px !important;
 	height: 40px !important;
-	margin: -28px 0 0 -44px;
+	margin: -28px 0 0 -28px;
 	font-size: 18px;
 	line-height: 40px;
 	text-align: center;
@@ -4749,7 +4749,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-overlay { display: no
 
 .portfolio-meta li span {
 	display: inline-block;
-	width: 150px;
+	width: 170px;
 	font-weight: bold;
 	color: #333;
 }

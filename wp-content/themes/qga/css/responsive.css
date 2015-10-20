@@ -611,7 +611,6 @@
 	#header.transparent-header.floating-header + #slider {
 		top: 0;
 		margin-bottom: 0;
-		height: 100vh !important;
 
 	}
 
