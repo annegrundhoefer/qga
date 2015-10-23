@@ -48,7 +48,7 @@ include('partials/header-pages.php'); ?>
 
             <div class="container clearfix">
                 <h1>Awards</h1>
-                <span>Some text about awards goes here</span>
+                <span>We pride ourselves in introducing innovation and creativity to each project, demonstrated through our local and state awards in architectural design and historic preservation.</span>
             </div>
 
         </section><!-- #page-title end -->
@@ -309,10 +309,11 @@ include('partials/header-pages.php'); ?>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
-                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                    <div class="team-title"><h4>Carter Quina</h4></div>
                                 </div>
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <p>Carter Quina, AIA, has practiced architecture as a principal of the firm in Pensacola, Florida, since 1984. An Auburn University and Tulane graduate, Carter has broadened his education through world travel, volunteer participation, and by teaching graduate level students.  His appreciation for the history of place confirms his invested interest in restoration as well as the value of new construction that considers the context of history as a primary factor in design.  Making buildings that will be built to last and be preserved, is the defining philosophy of his professional life.
+</p>
                                 </div>
                             </div>
                         </div>
@@ -323,10 +324,10 @@ include('partials/header-pages.php'); ?>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
-                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                    <div class="team-title"><h4>Danny Grundhoefer</h4></div>
                                 </div>
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <p>Daniel Grundhoefer, AIA, an Auburn University graduate, has practiced architecture since 1979 and has been a principal of the firm since 1992. His approach to solving design problems is to uncover the “essence of the obvious,” thereby formulating decisions that are eloquent and simple.  Through his extensive experience in religious design, Danny has developed a notion of space creation that inspires, is compelling, and that speaks to ones’ heart- becoming both subjective and effectual.</p>
                                 </div>
                             </div>
                         </div>
@@ -337,10 +338,10 @@ include('partials/header-pages.php'); ?>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
-                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                    <div class="team-title"><h4>Jessica Cribbs</h4></div>
                                 </div>
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <p>Jessica Cribbs has been a key member of the firm since 2005 serving as Office Manager in charge of all business affairs in addition to supporting project administration and marketing efforts.  Jessica’s talent for organization and process management is complementary to her strength of character and her care and concerns for the firm’s clients, consultants, and business partners.</p>
                                 </div>
                             </div>
                         </div>
@@ -351,10 +352,10 @@ include('partials/header-pages.php'); ?>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
-                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                    <div class="team-title"><h4>Hannah Coggin</h4></div>
                                 </div>
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <p>Hannah Coggin, AIA, initiated her career with the firm in 2005 before taking time to earn her Masters of Architecture at the University of Florida.  Now bound to Pensacola by family and career, she has excelled in executing complex program, technical, and implementation issues for both new and renovation projects.  She seeks solutions that are logical and environmentally responsive.</p>
                                 </div>
                             </div>
                         </div>
@@ -364,10 +365,10 @@ include('partials/header-pages.php'); ?>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
-                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                    <div class="team-title"><h4>Evan Amato</h4></div>
                                 </div>
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <p>Evan Amato, a Vermont native, found his way to the Gulf Coast in response to his passion for the natural environment and his concern for appropriate building in critical coastal settings.  A graduate of Tulane University, Evan has combined his knowledge of hand’s on craftsmanship, computer technology and hard work to achieve solutions borne in sustainability and conservation.</p>
                                 </div>
                             </div>
                         </div>
@@ -378,10 +379,10 @@ include('partials/header-pages.php'); ?>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
-                                    <div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
+                                    <div class="team-title"><h4>Janie Merritt</h4></div>
                                 </div>
                                 <div class="entry-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, asperiores quod est tenetur in. Eligendi, deserunt, blanditiis est quisquam doloribus voluptate id aperiam ea ipsum magni aut perspiciatis rem voluptatibus officia eos rerum deleniti quae nihil facilis repellat atque vitae voluptatem libero at eveniet veritatis ab facere.</p>
+                                    <p>Janie Merritt has become a valued team member using her artistic talents, computer capabilities and organizational skills to design and manage interior design projects for the firm.  A Mississippi State graduate, her knowledge of 21st century education methods has contributed to responsive solutions that appeal to teachers, staff and students.</p>
                                 </div>
                             </div>
                         </div>
