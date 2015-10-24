@@ -155,14 +155,6 @@ html[xmlns] .slider-wrap {display: block;}
 	overflow: hidden;
 }
 
-.slider-parallax {
-	visibility: visible;
-	-webkit-transform: translate(0,0);
-	-ms-transform: translate(0,0);
-	-o-transform: translate(0,0);
-	transform: translate(0,0);
-	-webkit-backface-visibility: hidden;
-}
 
 
 /* Boxed Slider
