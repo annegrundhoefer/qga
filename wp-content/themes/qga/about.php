@@ -6,7 +6,14 @@ Template Name: About
 
 include('partials/header-pages.php'); ?>
 
+  <section id="page-title">
 
+            <div class="container clearfix">
+                <h1>Firm</h1>
+                <span>Below highlights Our Philosophy, Our Awards and Our People.</span>
+            </div>
+
+        </section><!-- #page-title end -->
         <!-- Content
         ============================================= -->
         <section id="content">
@@ -285,8 +292,8 @@ include('partials/header-pages.php'); ?>
         <section id="page-title">
 
             <div class="container clearfix">
-                <h1>Our Team</h1>
-                <span>Some text about the team goes here</span>
+                <h1>Our People</h1>
+                <span>Our staff of talented professionals offers a wide range of experience and expertise in architecture and interior design.</span>
             </div>
 
         </section><!-- #page-title end -->

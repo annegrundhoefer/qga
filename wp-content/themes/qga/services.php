@@ -14,7 +14,7 @@ include('partials/header-pages.php'); ?>
 
             <div class="container clearfix">
                 <h1>Services</h1>
-                <span>Our Services</span>
+                <span>We provide full architectural and interior design services for all commercial and residential building types with particular focus on Religious, Historic, Sustainable, Educational and Recreational Design.</span>
             </div>
 
         </section><!-- #page-title end -->
@@ -61,9 +61,24 @@ include('partials/header-pages.php'); ?>
                             </div>
                         </div>
 
+                        <div class="entry clearfix">
+                            <div class="entry-image">
+                                <a href="/demo/qga/projects/?sustainable=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/global.jpg" alt="Standard Post with Image"></a>
+                            </div>
+                            <div class="entry-c">
+                                <div class="entry-title">
+                                    <h2><a href="/demo/qga/projects/?sustainable=true">Sustainable Design</a></h2>
+                                </div>
+                                <div class="entry-content">
+                                    <p>We are proud of our achievements in sustainable design solutions that match the needs of our clients.  In all of our projects, whether or not a green initiative was required, we design energy efficient systems and building envelopes that have a life cycle return on investment.  We recently achieved a LEED Gold Certificate for the Global Learning Academy, resulting in the local school district’s most energy efficient school. </p>
+                                    <a href="/demo/qga/projects/?sustainable=true"class="more-link">View Projects</a>
+                                </div>
+                            </div>
+                        </div>
+
                        <div class="entry clearfix">
                             <div class="entry-image">
-                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image"></a>
+                                <a href="/demo/qga/projects/?historic=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/michaels.png" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -78,7 +93,7 @@ include('partials/header-pages.php'); ?>
 
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/pastoral.jpg" alt="Standard Post with Image"></a>
+                                <a href="/demo/qga/projects/?recreational=true"><img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/stann.png" alt="Standard Post with Image"></a>
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">

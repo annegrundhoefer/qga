@@ -13,7 +13,7 @@ include('partials/header-pages.php'); ?>
 
             <div class="container clearfix">
                 <h1>News</h1>
-                <span>Our Latest News in Grid Layout</span>
+                <span>Our Latest News</span>
             </div>
 
         </section><!-- #page-title end -->
