@@ -140,7 +140,7 @@ include('partials/header-pages.php'); ?>
                                 </div>
                                 <div class="entry-content">
                                     <ul>
-                                        <li><a href="<?php echo site_url(); ?>projects/st-sylvester-catholic-church/"class="more-link">St. Sylvester Catholic Church (2010)</a></li>                                        
+                                        <li><a href="<?php echo site_url(); ?>/projects/st-sylvester-catholic-church/"class="more-link">St. Sylvester Catholic Church (2010)</a></li>                                        
                                         <li><a href="<?php echo site_url(); ?>/projects/cobb-community-center/"class="more-link">Cobb Community Center (2011)</a></li>
                                     </ul>
                                 </div>
