@@ -82,24 +82,24 @@ include('partials/header-pages.php'); ?>
                                 </div>
                                 <div class="entry-content">
                                     <ul>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Voices of Pensacola Multi-cultural Center (2015)</a></li>                                        <li><a href="<?php bloginfo('template_url'); ?> /projects/?educational=true"class="more-link">Voices of Pensacola Multi-cultural Center (2015)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/global-learning-academy/"class="more-link">Global Learning Academy Interiors (2013)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/east-hill-vet-clinic/"class="more-link">East Hill Animal Hospital (2012)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/global-learning-academy/"class="more-link">Global Learning Academy (2011)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/cobb-community-center/"class="more-link">Cobb Community Center (2011)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/imogene-theater/"class="more-link">Imogene Theater (2011)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/st-sylvester-catholic-church/"class="more-link">St. Sylvester Catholic Church (2011)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Old Escambia Courthouse Restoration (2010)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/sanders-beach/"class="more-link">Corinne Jones Sanders Beach Community Center (2009)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/sacred-heart-parish-hall/"class="more-link">Parish Hall for Sacred Heart Cathedral (2009)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Walnut Hill School House (2009)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/christ-our-redeemer-2"class="more-link">Christ Our Redeemer Catholic Church (2009)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/r-o-c-for-first-baptist-church/"class="more-link">Recreation Outreach Center, First Baptist Church (2009)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/st-josephs-church/"class="more-link">St. Joseph Catholic Church (2009)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/old-christ-churh/"class="more-link">Old Christ Church (2003)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/port-administration-building/"class="more-link">Port Administration Building (2003)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/holy-spirit-catholic-church/"class="more-link">Holy Spirit Catholic Church (1999)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/steelwood-resort/"class="more-link">Steelwood Clubhouse (1999)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Voices of Pensacola Multi-cultural Center (2015)</a></li>                                        <li><a href="<?php bloginfo('template_url'); ?> /projects/?educational=true"class="more-link">Voices of Pensacola Multi-cultural Center (2015)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/global-learning-academy/"class="more-link">Global Learning Academy Interiors (2013)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/east-hill-vet-clinic/"class="more-link">East Hill Animal Hospital (2012)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/global-learning-academy/"class="more-link">Global Learning Academy (2011)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/cobb-community-center/"class="more-link">Cobb Community Center (2011)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/imogene-theater/"class="more-link">Imogene Theater (2011)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/st-sylvester-catholic-church/"class="more-link">St. Sylvester Catholic Church (2011)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Old Escambia Courthouse Restoration (2010)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/sanders-beach/"class="more-link">Corinne Jones Sanders Beach Community Center (2009)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/sacred-heart-parish-hall/"class="more-link">Parish Hall for Sacred Heart Cathedral (2009)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Walnut Hill School House (2009)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/christ-our-redeemer-2"class="more-link">Christ Our Redeemer Catholic Church (2009)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/r-o-c-for-first-baptist-church/"class="more-link">Recreation Outreach Center, First Baptist Church (2009)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/st-josephs-church/"class="more-link">St. Joseph Catholic Church (2009)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/old-christ-churh/"class="more-link">Old Christ Church (2003)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/port-administration-building/"class="more-link">Port Administration Building (2003)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/holy-spirit-catholic-church/"class="more-link">Holy Spirit Catholic Church (1999)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/steelwood-resort/"class="more-link">Steelwood Clubhouse (1999)</a></li>
 
                                     </ul>
                                 </div>
@@ -116,15 +116,15 @@ include('partials/header-pages.php'); ?>
                                 </div>
                                 <div class="entry-content">
                                     <ul>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/imogene-theater/"class="more-link">Imogene Theater Restoration (2013)</a></li>                                        
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Old Escambia Courthouse Interior Restoration (2010) </a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Christ Episcopal Church Bell Tower (2009)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">FPAN at L&N Marine Terminal (2008)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Walnut Hill School House (2008)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/st-josephs-church/"class="more-link">St. Joseph Catholic Church (2007)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Casita Renovations (2006)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/?educational=true"class="more-link">Hutchinson House (2003)</a></li>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/old-christ-churh/"class="more-link">Old Christ Church (2000)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/imogene-theater/"class="more-link">Imogene Theater Restoration (2013)</a></li>                                        
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Old Escambia Courthouse Interior Restoration (2010) </a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Christ Episcopal Church Bell Tower (2009)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">FPAN at L&N Marine Terminal (2008)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Walnut Hill School House (2008)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/st-josephs-church/"class="more-link">St. Joseph Catholic Church (2007)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Casita Renovations (2006)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/?educational=true"class="more-link">Hutchinson House (2003)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>/projects/old-christ-churh/"class="more-link">Old Christ Church (2000)</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -140,8 +140,8 @@ include('partials/header-pages.php'); ?>
                                 </div>
                                 <div class="entry-content">
                                     <ul>
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/st-sylvester-catholic-church/"class="more-link">St. Sylvester Catholic Church (2010)</a></li>                                        
-                                        <li><a href="<?php bloginfo('template_url'); ?>/projects/cobb-community-center/"class="more-link">Cobb Community Center (2011)</a></li>
+                                        <li><a href="<?php echo site_url(); ?>projects/st-sylvester-catholic-church/"class="more-link">St. Sylvester Catholic Church (2010)</a></li>                                        
+                                        <li><a href="<?php echo site_url(); ?>/projects/cobb-community-center/"class="more-link">Cobb Community Center (2011)</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@ include('partials/header-pages.php'); ?>
                                     <h2>American School & University Award</h2>
                                 </div>
                                 <div class="entry-content">
-                                    <a href="<?php bloginfo('template_url'); ?>/projects/catholic-high-library/"class="more-link">Pensacola Catholic High School Library Building (2003)</a>
+                                    <a href="<?php echo site_url(); ?>/projects/catholic-high-library/"class="more-link">Pensacola Catholic High School Library Building (2003)</a>
                                 </div>
                             </div>
                         </div>
