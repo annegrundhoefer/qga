@@ -3,7 +3,9 @@
 <head>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="SemiColonWeb" />
+    <meta name="author" content="Anne Grundhoefer" />
+    <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.png" rel="shortcut icon">
+
 
     <!-- Stylesheets
     ============================================= -->
@@ -58,7 +60,7 @@
 
                     <div class="mobile-logo">
                         <div class="mobile-show">
-                            <a href="<?php echo site_url(); ?>" class="standard-logo"><img src="<?php bloginfo('template_url'); ?>/images/color.svg" alt="Canvas Logo"></a>
+                            <a href="<?php echo site_url(); ?>" class="standard-logo"><img src="<?php bloginfo('template_url'); ?>/images/color.svg" alt="Logo"></a>
                         </div>
                     </div>
 
