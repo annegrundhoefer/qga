@@ -32,7 +32,7 @@ include('partials/header-pages.php'); ?>
                             </div>
                             <div class="entry-c">
                                 <div class="heading-block fancy-title nobottomborder title-bottom-border">
-                                    <h4>Our <span>Philosophy</span>.</h4>
+                                    <h4>Our <span>Philosophy</span></h4>
                                  </div>
                                 <div class="entry-content">
                                     <p>Our Place in History: The distinctiveness of a body of work within a given context is the basis for evaluation of the impact made by an Architect or an Architectural firm on the built environment.  The enhanced quality of life and the formation of character for a city or region are its hallmarks.  The nature of the place, both natural and man-made, the image of the place and the respect for this place over time and in history, is the context for which the evaluation is made.  The distinctiveness of the place, the image and the historic context, is the criteria for excellence.</p>
