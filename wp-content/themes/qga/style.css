@@ -5002,6 +5002,10 @@ body:not(.device-touch) .entry-link {
 .small-thumbs .entry-image .award {
 	width: 100px;
 }
+
+.small-thumbs .entry-image .people {
+	width: 200px;
+}
 .small-thumbs .entry-image img,
 .ievent .entry-image img { border-radius: 0; }
 

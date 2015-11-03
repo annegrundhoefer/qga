@@ -4,7 +4,7 @@
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="Anne Grundhoefer" />
-    <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.png" rel="shortcut icon">
+    <link href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" rel="shortcut icon">
 
 
     <!-- Stylesheets
@@ -27,6 +27,7 @@
     ============================================= -->
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/canvas.slider.fade.js"></script>
 
     <!-- Document Title
     ============================================= -->

@@ -194,7 +194,7 @@ include('partials/header-pages.php'); ?>
 
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/about/carter.png" alt="Standard Post with Image">
+                                <img class="people" src="<?php bloginfo('template_url'); ?>/images/about/carter.png" alt="Standard Post with Image">
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -209,7 +209,7 @@ include('partials/header-pages.php'); ?>
 
                        <div class="entry clearfix">
                             <div class="entry-image">
-                                <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/about/danny.png" alt="Standard Post with Image">
+                                <img class="people" src="<?php bloginfo('template_url'); ?>/images/about/danny.png" alt="Standard Post with Image">
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -223,7 +223,7 @@ include('partials/header-pages.php'); ?>
 
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/about/jessica.jpg" alt="Standard Post with Image">
+                                <img class="people" src="<?php bloginfo('template_url'); ?>/images/about/jessica.jpg" alt="Standard Post with Image">
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -237,7 +237,7 @@ include('partials/header-pages.php'); ?>
 
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/about/hannah.jpg" alt="Standard Post with Image">
+                                <img class="people" src="<?php bloginfo('template_url'); ?>/images/about/hannah.jpg" alt="Standard Post with Image">
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -250,7 +250,7 @@ include('partials/header-pages.php'); ?>
                         </div>
                         <div class="entry clearfix">
                             <div class="entry-image">
-                                <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/library.jpg">
+                                <img class="people" src="<?php bloginfo('template_url'); ?>/images/about/evan.png">
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">
@@ -264,7 +264,7 @@ include('partials/header-pages.php'); ?>
 
                        <div class="entry clearfix">
                             <div class="entry-image">
-                                <img class="image_fade" src="<?php bloginfo('template_url'); ?>/images/blog/vet.jpg" alt="Standard Post with Image">
+                                <img class="people" src="<?php bloginfo('template_url'); ?>/images/about/janie.png">
                             </div>
                             <div class="entry-c">
                                 <div class="entry-title">

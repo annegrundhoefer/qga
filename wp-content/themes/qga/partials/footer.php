@@ -26,10 +26,10 @@
                                 <i class="icon-facebook"></i>
                             </a>
 
-                             <a href="#" class="social-icon si-small si-borderless nobottommargin si-gplus">
+<!--                              <a href="#" class="social-icon si-small si-borderless nobottommargin si-gplus">
                                 <i class="icon-gplus"></i>
                                 <i class="icon-gplus"></i>
-                            </a>
+                            </a> -->
 
                             <a href="#" class="social-icon si-small si-borderless nobottommargin si-linkedin">
                                 <i class="icon-linkedin"></i>
